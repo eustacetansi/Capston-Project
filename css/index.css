@@ -1,0 +1,25 @@
+.splash{
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: #055208;
+    transition: all ease-in-out 600ms;
+}
+.hidden{
+    transition: 0.5s;
+    display: none;
+}
+.splash-header{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-family: consolas;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
