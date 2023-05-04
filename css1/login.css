@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 70px;
+}
+.welcome{
+    margin-left: 15px;
+}
+.welcome *h1{
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+input:focus{
+    /*background-color: #055208ff;*/
+    color: black;
+}
+input[type='checkbox']:checked{
+    box-shadow: 0 0 5px 5px #055208ff; 
+}
+section{
+    justify-content: center;
+    display: grid;
+}
+.section2{
+    justify-content: center;
+    margin-left: 15px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: whitesmoke;
+}
+.button{
+    justify-content: center;
+}
+.button #fgt{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.btn{
+    color: white;
+    background-color: #f5c03dff;
+    width: 500px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.icon{
+    position: relative;
+}
+.input-field{
+    background: #c4e8c8;
+    margin: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+}
+input{
+    width: 100%;
+    background: #c4e8c8;
+    border: 0px;
+    border-radius: 10px;
+    outline: 0;
+    padding: 18px;
+}
+.input-field i{
+    margin-left: 15px;
+    color: gray;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    border-radius: 10px;
+    display: flex;
+    border: none;
+}
+.check #checkbox{
+    margin-right: 5px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+}
+.section3 .acct{
+    color: #055208ff;
+    margin-top: 25px;
+}
+.section3 .sign{
+    color: #f5c03dff;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+#ln{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+#line{  
+   width: 50px;
+    background-color: #055208ff;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    border: solid #055208ff;
+}
+#line2{
+    width: 55px;
+    height: 3px;
+    background-color: #f5c03dff;
+    margin-top: 10px;
+    margin-right: 3px;
+    border: solid #f5c03dff;
+}
+#line3{
+    width: 55px;
+    height: 3px;
+    background-color: #f5c03dff;
+    margin-top: 10px;
+    margin-left: 3px;
+    border: solid #f5c03dff;
+}
+a{
+    text-decoration: none;
+    color: #f5c03dff;
+}
+::placeholder{
+    margin-left: 5px;
+}
+#or{
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 30px;
+    border:solid lightblue;
+}
+#logo1{
+    height: 70px;
+    width: 70px;
+    margin-left: 10rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#logo2{
+    height: 70px;
+    width: 70px;
+    margin-left: 5rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#leaf{
+    height: 100px;
+    opacity: 0.55;
+}
+@media screen and (max-width: 100%) {
+    .main {
+    width: 100%;
+    background-color: lightgreen;
+ }
+}
