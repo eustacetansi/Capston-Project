@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    background-color: #055208;
+    height: 70px;
+}
+.container{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    }
+/*the back lesser than sign to go back */
+.back-arrow a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+}
+/* .back-arrow{
+    width: 80%;
+    margin: 0 auto;
+} */
+.back-arrow h2{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: -10px;
+}
+/* image and name in the profile */
+.picture-name img{
+    border-radius : 70px;
+    width: 80px;
+    padding-bottom: 8px;
+}
+.picture-name{
+    text-align: center;
+}
+.picture-name h3{
+    font-size: 30px;
+}
+
+/* input tags of the profile */
+.input-box{
+    text-align: center;
+}
+.input-box button{
+    width: 95%;
+    border: 1px solid rgb(210, 230, 230);
+    margin: 0 0 10px 0;
+    border-radius: 8px;
+    height: 40px;
+    background-color: #fff;
+}
+.input-box p{
+    margin: 10px 0;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 11px;
+    color: rgb(126, 130, 133);
+}
+/* footer area */
+footer{
+    display: flex;
+    flex-direction: row;
+    border: rgb(244, 239, 233) solid 4px;
+    border-radius:15px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 20%;
+    height: 50px;
+    padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+span{
+    color: #055208;
+}
