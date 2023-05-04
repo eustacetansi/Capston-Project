@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    background-color: #055208;
+    height: 70px;
+}
+/*the back lesser than sign to go back */
+.back-arrow a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 60px;
+    color: black;
+}
+.container{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    }
+    /* details */
+    .info{
+        margin-top: 30px;
+    }
+    .info h4{
+        padding-bottom: 13px;
+    }
