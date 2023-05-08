@@ -5,6 +5,9 @@
 .back{
     background-color: #055208;
     height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 /*the back lesser than sign to go back */
 .back-arrow a{
@@ -26,3 +29,24 @@
     .info h4{
         padding-bottom: 13px;
     }
+
+    /* footer area */
+footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    border: rgb(244, 239, 233) solid 4px;
+    border-radius:15px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 20%;
+    height: 50px;
+    padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}

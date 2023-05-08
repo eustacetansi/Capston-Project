@@ -6,10 +6,13 @@
 .back{
     background-color: #055208;
     height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .container{
     width: 90%;
-    margin: 0 auto;
+    margin: 80 auto 0 auto;
 }
 /* box */
 .box{
@@ -124,12 +127,16 @@
 }
 /* footer area */
 footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     border: rgb(244, 239, 233) solid 4px;
     border-radius:15px;
     align-items: center;
     justify-content: center;
+    background-color: #055208;
 }
 .footer{
     width: 20%;
@@ -140,9 +147,6 @@ footer{
     text-decoration: none;
     color: black;
     font-weight: bolder;
-}
-span{
-    color: #055208;
 }
 
 .col-1 {width: 8.33%;}
