@@ -51,3 +51,5 @@ store f07a
 
 <i class="fa-sharp fa-regular fa-cart-plus"></i>
 <i class="fa-sharp fa-regular fa-bell-plus"></i>
+
+<i class='fas fa-toggle-on' style='font-size:24px'></i>
