@@ -8,12 +8,15 @@
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: #c4e8c8 10px solid;
 }
 .container{
     width: 400px;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 150px;
     }
 /*the back lesser than sign to go back */
 .back-arrow a{
@@ -50,11 +53,14 @@
 } */
 .input-box button{
     width: 95%;
-    border: 1px solid rgb(210, 230, 230);
+    border: 2px solid rgb(132, 139, 139);
     margin: 0 0 10px 0;
     border-radius: 8px;
     height: 40px;
     background-color: #fff;
+}
+.input-box span{
+    padding-left: 30%;
 }
 .input-box p{
     margin: 10px 0;
@@ -71,17 +77,22 @@
 }
 /* footer area */
 footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     border: rgb(244, 239, 233) solid 4px;
     border-radius:15px;
     align-items: center;
     justify-content: center;
+    background-color: #055208;
 }
 .footer{
     width: 20%;
     height: 50px;
     padding-top: 20px;
+    text-align: center;
 }
 .footer a{
     text-decoration: none;

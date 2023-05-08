@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    border-bottom: #c4e8c8 10px solid;    
 }
 /*the back lesser than sign to go back */
 .back-arrow a{
@@ -16,34 +17,62 @@
     font-size: 60px;
     color: black;
 }
+.back-arrow h2{
+    font-weight: bolder;
+    font-size: 40px;
+}
 .container{
     width: 400px;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 60px;
     }
     /* details */
     .info{
         margin-top: 30px;
     }
     .info h4{
-        padding-bottom: 13px;
+        padding-bottom: 15px;
+        font-size: 20px;
     }
-
+    .info p{
+        color: #60ab69;
+        font-weight: bolder;
+        font-size: 10px;
+    }
+.chat-type {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.chat-type textarea{
+    height: 40px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid #c6cec7;
+}
     /* footer area */
+/* footer area */
 footer{
-    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     border: rgb(244, 239, 233) solid 4px;
     border-radius:15px;
     align-items: center;
     justify-content: center;
+    background-color: #055208;
 }
 .footer{
     width: 20%;
     height: 50px;
     padding-top: 20px;
+    text-align: center;
 }
 .footer a{
     text-decoration: none;

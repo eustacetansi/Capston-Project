@@ -13,7 +13,7 @@
 }
 .container{
     width: 90%;
-    margin: 80 auto 80 auto;
+    margin: 0 auto 80px auto ;
 }
 /* box */
 .box{
@@ -79,6 +79,7 @@
     border: none;
     border-radius: 12px;
     height: 45px;
+    margin-top: 20px;
 }
 .search-box input::placeholder{
     font-size: 20px;
@@ -100,7 +101,13 @@
 }
 /* header */
 .header{
-    margin-top: 10px;
+    margin-top: 85px;
+}
+.header span a{
+    height: 0px;
+    color: #055208;
+    font-weight: bolder;
+    font-size: 30px;
 }
 .float-left{
     float: left;
@@ -127,6 +134,11 @@
     color: #055208;
     text-decoration: none;
     width: 18%;
+}
+.title span{
+    background-color: #72d27d;
+    padding: 8px;
+    border-radius: 80px;
 }
 /* footer area */
 footer{
