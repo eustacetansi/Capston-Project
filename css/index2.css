@@ -11,6 +11,9 @@
 .back{
     background-color: #055208;
     height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 img{
     padding: 90px 0;  
