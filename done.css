@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+.container{
+    width: 80%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    margin-left: 200px;
+    flex-flow: column;
+    padding-bottom: 60px;
+    border: solid whitesmoke;
+    border-radius: 10px;
+}
+
+/*CSS FOR THE LEFT NAVIGATION ARROR*/
+.arrow{
+    font-size: 45px;
+    color: black;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+h2{
+    margin: 15px;
+}
+.check-box .check{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 40px;
+    border-radius: 90px;
+}
+.container .check-box2 .check{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 40px;
+    border-radius: 90px;
+}
+input{
+    background-color: #055208;
+}
+.check-box{
+    width: 80%;
+    border: solid whitesmoke;
+    border-radius: 10px;
+    height: 70px;
+    margin-left: 195px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .check-box2{
+    display: flex;
+    justify-content:space-between;
+}
+
+/*CSS FOR THE ATM CARD*/
+.container .image{
+    position: absolute;
+    height: 50%;
+    width: 35%;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, rgb(228, 247, 145), yellow);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+    transform:perspective(1000px) rotate(270deg);
+    transition:transform .4s ease-out;
+}
+
+.container .image{
+    margin: 800px 500px 700px 500px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.addition{
+    display: flex;
+    justify-content:center;
+    padding: 700px 500px 500px 300px;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+.addition .plus{
+    margin-left: 10px;
+margin-right: 30px;
+    padding-left: 100px;
+}
+
+/*CSS FOT THE DONE BUTTON*/
+.submit-btn{
+    width: 30%;
+    background: #055208ff;
+    margin-top: 60px;
+    margin-left: 560px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+/*CSS FOR THE FOOTER*/
+nav{
+    height: 50px;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 0 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+.nav-content{
+    display: flex;
+    height: 120px;
+    padding-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+}
+.link-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    width: 95px;
+    text-decoration: none;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.link-item.active{
+    transform: translateY(-10px);
+}
+.link-icon{
+    font-size: 38px;
+    color: #999;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.link-item.active .link-icon{
+    color: #055208ff;
+}
+.link-text{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    color: #055208ff;
+    opacity: 0;
+    transform: translateY(32px);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.link-item.active .link-text{
+    opacity: 1;
+}
+.indicator{
+    position: absolute;
+    top: -14px;
+    left: 48px;
+    height: 36px;
+    width: 36px;
+    background-color: #FFF;
+    border: 6px solid black;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.indicator::before,
+.indicator::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    height: 24px;
+    width: 19px;
+}
+.indicator::before{
+    left: -22px;
+    background-color: #FFF;
+    border-top-right-radius: 25px;
+    box-shadow: 1px -13px #4070F4;
+}
+.indicator::after{
+    right: -22px;
+    background-color: #FFF;
+    border-top-left-radius: 25px;
+    box-shadow: -1px -13px #4070F4;
+}
+@media screen and (max-width: 800px) {
+    .arrow .check-box .container .footer .a {
+        width: 100%;
+    }    
+}
