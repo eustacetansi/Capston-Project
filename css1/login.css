@@ -3,6 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.back{
+    background-color: #055208;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: #c4e8c8 10px solid;
+}
 body{
     height: 100%;
     background-color: whitesmoke;
@@ -31,9 +39,11 @@ section{
     margin-left: 15px;
 }
 .main{
-    width: 100%;
-    height: 100vh;
-    position: absolute;
+    padding-top: 90px;
+    width: 400px;
+    margin: 0 auto;
+    max-width: 750px;
+    /* position: absolute; */
     background-color: whitesmoke;
 }
 .button{
