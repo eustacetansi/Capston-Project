@@ -31,7 +31,7 @@
         </div>
         <!--the search box-->
         <div class="search-box">
-            <input type="text" placeholder="&#128269 Search">
+            <input id="searchbar" onkeyup="search_goods()" type="text" name="search" placeholder="&#128269 Search">
         </div>
         <!--box-->
         <div class="box">
@@ -44,36 +44,37 @@
             </div>
         </div>
             <!--title and view all-->
+            
             <div class="title">
                 <h3>Popular Crops</h3>
                 <a href="./viewall.html">view all</a>
             </div>
             <!--crop pictures-->
-            <div class="pictures-1">
+            <div class="pictures-1 goods">
                 <div class="col pic">
                     <a href="#">
                         <img src="./img/cashew nut.jpg" alt="">
-                        <h3>Cashew Nuts</h3>
-                        <p>$30.15 per bag</p>
+                        <h3 class="goods">Cashew Nuts</h3>
+                        <p>$30.15 <span>per bag</span></p>
                     </a>
                     <a href="#">
                         <img src="./img/sesame seeds.jpg" alt="">
-                        <h3>Season Seeds</h3>
-                        <p>$40.25 per bag</p>
+                        <h3 class="goods">Season Seeds</h3>
+                        <p>$40.25 <span>per bag</span></p>
                     </a>
                 </div>
             </div>
-            <div class="pitures-2">
+            <div class="pitures-2 goods">
                 <div class="col pic">
                     <a href="#">
                         <img src="./img/plat.jpg" alt="">
-                        <h3>Plantain</h3>
-                        <p>$20.75 per bag</p>
+                        <h3 class="goods">Plantain</h3>
+                        <p>$20.75 <span>per Bunch</span></p>
                     </a>
                     <a href="#">
                         <img src="./img/oil.jpg" alt="">
-                        <h3>Red Oil</h3>
-                        <p>$30.35 per bag</p>
+                        <h3 class="goods">Red Oil</h3>
+                        <p>$30.35 <span>per Liters</span></p>
                     </a>
                 </div>
             </div>
@@ -87,6 +88,6 @@
         <div class="footer"><a href=""><i class='fas fa-user-alt' style='font-size:25px'></i></a></div>
         
     </footer>
-    
+    <script src="./js/dashboard.js"></script>
 </body>
 </html>
