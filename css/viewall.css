@@ -40,10 +40,13 @@
 
 /* title and view all */
 .title{
+    margin: 20px;
     display: flex;
 }
 /* crop pictures */
-
+.goods p span{
+    color: #edd494;
+}
 .pic{
     display: flex;
     width: 100%;
@@ -74,11 +77,12 @@
 /* the search box */
 .search-box input{
     width: 100%;
-    padding: 10px 0 10px 30px;
+    padding: 15px 0 15px 30px;
     background-color: #e5ede6;
     border: none;
     border-radius: 12px;
-    height: 45px;
+    height: 55px;
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 .search-box input::placeholder{
@@ -151,7 +155,7 @@ footer{
     border-radius:15px;
     align-items: center;
     justify-content: center;
-    background-color: #055208;
+    /* background-color: #055208; */
 }
 .footer{
     width: 20%;
